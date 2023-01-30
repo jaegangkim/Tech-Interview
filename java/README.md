@@ -1,7 +1,7 @@
 # Java
 <details>
   <summary>목차</summary>
-[1. Java 언어의 특징](#java-언어의-특징)
+- [1. Java 언어의 특징](#Java-언어의-특징)
 
 
 </details>
