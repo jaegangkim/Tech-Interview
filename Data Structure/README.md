@@ -32,7 +32,7 @@
   - 각 Key값은 해시함수에 의해 고유한 index를 가지게 되어 바로 접근할 수 있으므로 평균 O(1)의 시간 복잡도로 데이터를 조회한다. 하지만 index값이 충돌이 발생한 경우 Chanining에 연결된 리스트들까지 검색해야 하므로 O(N)까지 증가할 수 있다.
  
 - HashTable 구조
-https://github.com/jaegangkim/Tech-Interview/blob/main/images/HashTable1.png?raw=true
+![1](https://github.com/jaegangkim/Tech-Interview/blob/main/images/HashTable1.png?raw=true)
   - Key : 고유한 값 / 저장 공간의 효율성을 위해 Hash Function에 입력하여 Hash로 변경 후 저장
   - Hash Function : Key를 Hash로 바꿔주는 역할 / 해시 충돌이 발생할 확률을 최대한 줄이는 함수를 만드는 것이 중요
   - Hash : Hash Function의 결과 / 저장소에서 Value와 매칭되어 저장
