@@ -6,9 +6,18 @@
   
 - [Array와 LinkedList](#Array와-LinkedList)
 - [HashTable](#HashTable)
+- [Stack](#Stack)
+- [Queue](#Queue)
+- [Graph와 Tree](#Graph와-Tree) 
 - [](#)
 - [](#)
-  
+- [](#) 
+- [](#) 
+- [](#) 
+- [](#) 
+- [](#) 
+
+
 </details>
 
 ## Array와 LinkedList
@@ -68,11 +77,26 @@ Key-Value구조 및 Key에 대한 Hash로 Value를 관리하는 것은 동일함
   - 비동기
   - null값 허용
 
-
-
-
-
-
+## Stack
+: 한 쪽 끝에서만 자료를 넣고 뺄 수 있는 LIFO(Last In First Out) 형식의 자료 구조
+#### 사용 예시
+- pop() push(item) peek() isEmpty()
+## Queue
+: 컴퓨터의 기본적인 자료구조의 한가지로, 먼저 집어넣은 데이터가 먼저 나오는 FIFO(First In First Out)구조로 저장하는 형식
+#### 사용 예시
+- add(item) remove() peek() isEmpty()
+- 입력 순서대로 처리해야 할 필요가 있는 경우 사용
+- BFS(너비 우선 탐색) , 캐시 구현
+## Graph와 Tree
+#### Graph
+: 단순히 노드(N, node)와 그 노드를 연결하는 간선(E,edge)을 하나로 모아놓은 자료 구조
+- 객체 간의 관계를 표현할 수 있다
+#### Tree
+: 노드로 이루어진 자료 구조
+- 비선형 자료구조로, 계층적 관계를 표현한다.
+- 그래프의 한 종류로, '최소 연결 트리'라고도 불린다.
+#### 차이점
+![2](https://github.com/jaegangkim/Tech-Interview/blob/main/images/graph-vs-tree.png?raw=true)
 
 ###### 참고자료
 - https://hee96-story.tistory.com/48
