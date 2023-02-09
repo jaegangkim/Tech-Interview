@@ -27,3 +27,13 @@
 <br>
 
 ## HashTable
+- HashTable 개념
+  - Key와 Value를 1:1로 연관지어 저장하는 자료구조
+  - Key를 이용하여 Value 도출
+
+- HashTable 기능
+  - 연관배열 구조와 동일한 기능 지원
+  - Key,Value가 주어졌을 때, 두 값을 저장
+  - Key가 주어지면 해당 Key와 연관된 Value 조회, 수정, 삭제
+ 
+- HashTable 구조
