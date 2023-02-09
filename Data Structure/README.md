@@ -29,11 +29,41 @@
 ## HashTable
 - HashTable 개념
   - Key와 Value를 1:1로 연관지어 저장하는 자료구조
-  - Key를 이용하여 Value 도출
-
-- HashTable 기능
-  - 연관배열 구조와 동일한 기능 지원
-  - Key,Value가 주어졌을 때, 두 값을 저장
-  - Key가 주어지면 해당 Key와 연관된 Value 조회, 수정, 삭제
+  - 각 Key값은 해시함수에 의해 고유한 index를 가지게 되어 바로 접근할 수 있으므로 평균 O(1)의 시간 복잡도로 데이터를 조회한다. 하지만 index값이 충돌이 발생한 경우 Chanining에 연결된 리스트들까지 검색해야 하므로 O(N)까지 증가할 수 있다.
  
 - HashTable 구조
+<https://github.com/jaegangkim/Tech-Interview/blob/main/images/HashTable1.png?raw=true>
+  - Key : 고유한 값 / 저장 공간의 효율성을 위해 Hash Function에 입력하여 Hash로 변경 후 저장
+  - Hash Function : Key를 Hash로 바꿔주는 역할 / 해시 충돌이 발생할 확률을 최대한 줄이는 함수를 만드는 것이 중요
+  - Hash : Hash Function의 결과 / 저장소에서 Value와 매칭되어 저장
+  - Value : 저장소에 최종적으로 저장되는 값 / 키와 매칭되어 저장, 삭제, 검색, 수정 가능
+ 
+#### Hash 충돌
+- 서로 다른 Key가 Hash Function에서 같은 Hash로 나오는 경우 발생
+- 충돌이 많아질수록 탐색의 시간 복잡도가 O(1)에서 O(n)으로 증가
+
+#### HashTable의 장단점
+- 장점
+  - 적은 리소스로 많은 데이터 관리 가능
+  - 삽입, 검색, 삭제, 조회가 빠름
+  - Key와 Hash에 연관성이 없어 보안에 유리함
+  - 중복 제거에 유용
+ 
+- 단점
+  - 충돌 발생 가능성이 있음
+  - 공간 복잡도 증가
+  - 순서 무시
+  - 해시 함수에 의존
+ 
+#### HashTable과 HashMap의 차이점 
+**Key-Value구조 및 Key에 대한 Hash로 Value를 관리하는 것은 동일함**
+- HashTable
+  - 동기
+  - null값 미허용
+- HashMap
+  - 비동기
+  - null값 허용
+
+
+
+
