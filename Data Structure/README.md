@@ -24,6 +24,5 @@
 
 >**Array는 검색이 빠르지만 삽입,삭제가 느리고 LinkedList는 검색이 느리지만 삽입,삭제가 빠르다.**
 
-<br><br>
-
+<br>
 ## HashTable
