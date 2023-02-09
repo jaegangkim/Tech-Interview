@@ -56,7 +56,7 @@
   - 해시 함수에 의존
  
 #### HashTable과 HashMap의 차이점 
-**Key-Value구조 및 Key에 대한 Hash로 Value를 관리하는 것은 동일함**
+Key-Value구조 및 Key에 대한 Hash로 Value를 관리하는 것은 동일함
 - HashTable
   - 동기
   - null값 미허용
