@@ -34,6 +34,7 @@
 - HashTable 구조
 <br>
 ![1](https://github.com/jaegangkim/Tech-Interview/blob/main/images/HashTable1.png?raw=true)
+
   - Key : 고유한 값 / 저장 공간의 효율성을 위해 Hash Function에 입력하여 Hash로 변경 후 저장
   - Hash Function : Key를 Hash로 바꿔주는 역할 / 해시 충돌이 발생할 확률을 최대한 줄이는 함수를 만드는 것이 중요
   - Hash : Hash Function의 결과 / 저장소에서 Value와 매칭되어 저장
