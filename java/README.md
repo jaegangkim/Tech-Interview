@@ -1,6 +1,6 @@
 # Java
 <details>
-  <summary>목차</summary>
+  <summary><h4>목차</h4></summary>
   
 - [Java 언어의 특징](#Java-언어의-특징)
 - [객체와 클래스의 차이점](#객체와-클래스의-차이점)
