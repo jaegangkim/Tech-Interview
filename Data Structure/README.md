@@ -2,7 +2,7 @@
 자료구조 : 데이터를 원하는 규칙 또는 목적에 맞게 저장하기 위한 구조
 <br><br>
 <details>
-  <summary>목차</summary>
+  <summary><h4>목차</h4></summary>
   
 - [Array와 LinkedList](#Array와-LinkedList)
 - [HashTable](#HashTable)
